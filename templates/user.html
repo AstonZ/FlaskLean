@@ -1,0 +1,40 @@
+<h1>Welcome, {{name}}</h1>
+<!-- 
+templates 简单控制流
+{% if user %}
+    Hello, {{user}}
+{% else %}
+    Hello, stranger
+{% endif %} 
+
+<ul>
+   {% for comment in comments%}
+        <li>{{comment}}</li>
+    {% endfor %}
+</ul>
+
+使用Macro
+{% macro render_comment(comment) %}
+    <li>{{comment}}</li>
+{% endmacro %}
+<ul>
+     {% for comment in comments%}
+        {{ macro.render_comment(comment) }}
+    {% endfor %}
+</ul>
+
+外部导入macro
+{% import 'macro.html' as macros %}
+<ul>
+     {% for comment in comments%}
+        {{ macros.render_comment(comment) }}
+    {% endfor %}
+</ul>
+
+作者：tangyefei
+链接：https://www.jianshu.com/p/6b5eeff43360
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
+
+-->

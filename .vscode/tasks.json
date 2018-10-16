@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "command": "/Users/ju51/Envs/FlaskDemo/bin/python3.6",
+  "isShellCommand": true,  
+  "args": ["${file}"],
+  "showOutput": "always"
+}
